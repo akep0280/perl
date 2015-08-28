@@ -1,0 +1,69 @@
+#!/bin/sh
+
+cpanm YAML
+cpanm Module::Install
+cpanm CPAN
+cpanm PDF::API2::Simple
+cpanm Image::Size
+cpanm UNIVERSAL::require
+cpanm Cache::FileCache
+cpanm XML::Simple
+cpanm Scalar::Util
+cpanm Spreadsheet::WriteExcel
+cpanm Data::Password
+cpanm CAM::PDF
+cpanm File::Path
+cpanm Math::BigInt
+cpanm Apache::DBI
+cpanm Apache::Session
+cpanm HTML::Template
+cpanm MIME::Entity
+
+cpanm Config::General
+cpanm Class::Accessor
+cpanm Devel::StackTrace
+cpanm Digest::MD5
+cpanm Email::Valid
+cpanm Exception::Class
+cpanm Exception::Class::DBI
+cpanm File::Pid
+cpanm HTML::Template
+cpanm JSON::DWIW
+cpanm Tie::Hash::Indexed
+cpanm Time::HiRes
+cpanm XML::Checker
+cpanm Apache::Request
+cpanm Apache::Cookie
+cpanm Apache2::Request
+cpanm Apache2::Cookie
+cpanm SOAP::Lite
+cpanm Data::Structure::Util
+cpanm Pod::WSDL2
+cpanm Pod::WSDL
+cpanm Log::Log4perl
+
+cpanm Date::Calc
+cpanm Digest::SHA
+cpanm File::MimeInfo::Magic
+cpanm File::Path
+cpanm File::Spec
+cpanm FreezeThaw
+cpanm HTML::BBCode
+cpanm MIME::Base64
+cpanm Mail::Sendmail
+cpanm Text::CSV_XS
+cpanm PayflowPro
+cpanm WWW::Curl
+cpanm Crypt::SaltedHash
+cpanm HTML::HTMLDoc
+
+cpanm JSON;
+cpanm Math::Pari --verbose;
+cpanm Crypt::RSA;
+cpanm DateTime;
+cpanm Text::CSV
+cpanm Text::Wrapper
+cpanm String::MkPasswd
+cpanm Time::Progress
+cpanm Spreadsheet::ParseExcel
+cpanm Try::Tiny
