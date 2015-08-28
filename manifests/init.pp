@@ -1,3 +1,4 @@
 class perl {
-	include perl::config
+	include perl::facter
+	#include perl::config
 }
