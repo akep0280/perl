@@ -1,6 +1,4 @@
-class perl::config {
-	include apache
-
-	
-	exec { 'perl_prereg_install.sh'}
+class perl {
+	include perl::facter
+	#include perl::config
 }
